@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+#videoApp{width:400px; margin:0px auto;}
+.wrapper{width:80%; margin:3% auto;}
+.hSpacer20{height:20px;}
+.product{height:200px;margin:0 0 0px 0;}
+.product{text-align:center;}
+.productActions{margin:5px 0 20px 0;}
+.productActions .glyphicon{font-size:20px;}
