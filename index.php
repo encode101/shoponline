@@ -26,9 +26,10 @@
 	foreach ($cursor as $document) {
 		echo "<div class='element ".$document["category"]."'>";
 			echo "<div class='title'>".$document["title"] . "</div>";
-			echo "<div>".$document["category"] . "</div>";
-			echo "<div>Price: ".$document["Price"] . "</div>";
+			//echo "<div>".$document["category"] . "</div>";
+			
 			echo "<div><img src='uploads/".$document["pimage"]."' width='90%' class='pimage' /></div>";
+			echo "<div class='price'>Price: ".$document["Price"] . "</div>";
 		echo "</div>";
 	}
 ?>
